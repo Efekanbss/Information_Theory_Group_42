@@ -1,0 +1,65 @@
+clc;
+clear;
+close all;
+
+disp('======================================================');
+disp('           EXERCISE 6: STATISTICAL DEPENDENCE           ');
+disp('======================================================\n');
+
+% --- EXAMPLE A: INDEPENDENT ---
+disp('=== EXAMPLE A: INDEPENDENT ===');
+P_A = [0.28, 0.12; 
+       0.42, 0.18];
+
+px_A = sum(P_A, 2); % Row sums (marginal p(x))
+py_A = sum(P_A, 1); % Column sums (marginal p(y))
+
+hx_A   = compute_entropy(px_A);
+hy_A   = compute_entropy(py_A);
+hxy_A  = compute_entropy(P_A(:));
+
+hx_given_y_A = hxy_A - hy_A;
+hy_given_x_A = hxy_A - hx_A;
+mi_A         = hx_A + hy_A - hxy_A;
+
+fprintf('Marginal p(x) : [%.2f, %.2f]\n', px_A(1), px_A(2));
+fprintf('Marginal p(y) : [%.2f, %.2f]\n', py_A(1), py_A(2));
+fprintf('H(X)          : %.4f bits\n', hx_A);
+fprintf('H(Y)          : %.4f bits\n', hy_A);
+fprintf('H(X,Y)        : %.4f bits\n', hxy_A);
+fprintf('H(X|Y)        : %.4f bits\n', hx_given_y_A);
+fprintf('H(Y|X)        : %.4f bits\n', hy_given_x_A);
+fprintf('I(X,Y)        : %.4f bits\n\n', mi_A);
+
+% --- EXAMPLE B: DEPENDENT ---
+disp('=== EXAMPLE B: DEPENDENT ===');
+P_B = [0.25, 0.05; 
+       0.15, 0.55];
+
+px_B = sum(P_B, 2);
+py_B = sum(P_B, 1);
+
+hx_B   = compute_entropy(px_B);
+hy_B   = compute_entropy(py_B);
+hxy_B  = compute_entropy(P_B(:));
+
+hx_given_y_B = hxy_B - hy_B;
+hy_given_x_B = hxy_B - hx_B;
+mi_B         = hx_B + hy_B - hxy_B;
+
+fprintf('Marginal p(x) : [%.2f, %.2f]\n', px_B(1), px_B(2));
+fprintf('Marginal p(y) : [%.2f, %.2f]\n', py_B(1), py_B(2));
+fprintf('H(X)          : %.4f bits\n', hx_B);
+fprintf('H(Y)          : %.4f bits\n', hy_B);
+fprintf('H(X,Y)        : %.4f bits\n', hxy_B);
+fprintf('H(X|Y)        : %.4f bits\n', hx_given_y_B);
+fprintf('H(Y|X)        : %.4f bits\n', hy_given_x_B);
+fprintf('I(X,Y)        : %.4f bits\n', mi_B);
+
+% ======================================================
+% LOCAL HELPER FUNCTION
+% ======================================================
+function h = compute_entropy(probs)
+    probs = probs(probs > 0); % Filter out zeros to avoid log2(0)
+    h = -sum(probs .* log2(probs));
+end
