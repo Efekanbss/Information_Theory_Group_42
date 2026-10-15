@@ -2,9 +2,6 @@ clear;
 clc; 
 close all;
 
-% Disable figure window popups (renders headlessly in background without opening windows)
-set(0, 'DefaultFigureVisible', 'off');
-
 %% 1. Read text
 % Read text file, convert to lowercase, keep only 'a'-'z' and spaces
 rawText=fileread('Anna_Karenina.txt');
