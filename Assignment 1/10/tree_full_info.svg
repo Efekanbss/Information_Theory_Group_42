@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="463pt" height="407pt" viewBox="0.00 0.00 463.00 407.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 403.2)">
+<title>Tree</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-403.2 459.44,-403.2 459.44,4 -4,4"/>
+<!-- n1 -->
+<g id="node1" class="node">
+<title>n1</title>
+<path fill="#80ef80" stroke="#444444" d="M265.94,-399.2C265.94,-399.2 182.49,-399.2 182.49,-399.2 176.49,-399.2 170.49,-393.2 170.49,-387.2 170.49,-387.2 170.49,-352.8 170.49,-352.8 170.49,-346.8 176.49,-340.8 182.49,-340.8 182.49,-340.8 265.94,-340.8 265.94,-340.8 271.94,-340.8 277.94,-346.8 277.94,-352.8 277.94,-352.8 277.94,-387.2 277.94,-387.2 277.94,-393.2 271.94,-399.2 265.94,-399.2"/>
+<text xml:space="preserve" text-anchor="middle" x="224.22" y="-382.6" font-family="Helvetica,sans-Serif" font-size="14.00">x2 &lt; 50 </text>
+<text xml:space="preserve" text-anchor="middle" x="224.22" y="-365.8" font-family="Helvetica,sans-Serif" font-size="14.00">Entropy = 0.92</text>
+<text xml:space="preserve" text-anchor="middle" x="224.22" y="-349" font-family="Helvetica,sans-Serif" font-size="14.00">n = 15  [10, 5]</text>
+</g>
+<!-- n2 -->
+<g id="node2" class="node">
+<title>n2</title>
+<path fill="#80ef80" stroke="#444444" d="M197.94,-280C197.94,-280 114.49,-280 114.49,-280 108.49,-280 102.49,-274 102.49,-268 102.49,-268 102.49,-233.6 102.49,-233.6 102.49,-227.6 108.49,-221.6 114.49,-221.6 114.49,-221.6 197.94,-221.6 197.94,-221.6 203.94,-221.6 209.94,-227.6 209.94,-233.6 209.94,-233.6 209.94,-268 209.94,-268 209.94,-274 203.94,-280 197.94,-280"/>
+<text xml:space="preserve" text-anchor="middle" x="156.22" y="-263.4" font-family="Helvetica,sans-Serif" font-size="14.00">x3 &lt; 50 </text>
+<text xml:space="preserve" text-anchor="middle" x="156.22" y="-246.6" font-family="Helvetica,sans-Serif" font-size="14.00">Entropy = 0.97</text>
+<text xml:space="preserve" text-anchor="middle" x="156.22" y="-229.8" font-family="Helvetica,sans-Serif" font-size="14.00">n = 5  [2, 3]</text>
+</g>
+<!-- n1&#45;&gt;n2 -->
+<g id="edge1" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#444444" d="M207.58,-340.33C198.79,-325.18 187.88,-306.38 178.38,-290"/>
+<polygon fill="#444444" stroke="#444444" points="181.49,-288.38 173.44,-281.48 175.43,-291.89 181.49,-288.38"/>
+<text xml:space="preserve" text-anchor="middle" x="206.35" y="-306.2" font-family="Helvetica,sans-Serif" font-size="14.00">Yes</text>
+</g>
+<!-- n5 -->
+<g id="node5" class="node">
+<title>n5</title>
+<path fill="#80ef80" stroke="#444444" d="M333.94,-280C333.94,-280 250.49,-280 250.49,-280 244.49,-280 238.49,-274 238.49,-268 238.49,-268 238.49,-233.6 238.49,-233.6 238.49,-227.6 244.49,-221.6 250.49,-221.6 250.49,-221.6 333.94,-221.6 333.94,-221.6 339.94,-221.6 345.94,-227.6 345.94,-233.6 345.94,-233.6 345.94,-268 345.94,-268 345.94,-274 339.94,-280 333.94,-280"/>
+<text xml:space="preserve" text-anchor="middle" x="292.22" y="-263.4" font-family="Helvetica,sans-Serif" font-size="14.00">x1 &lt; 70 </text>
+<text xml:space="preserve" text-anchor="middle" x="292.22" y="-246.6" font-family="Helvetica,sans-Serif" font-size="14.00">Entropy = 0.72</text>
+<text xml:space="preserve" text-anchor="middle" x="292.22" y="-229.8" font-family="Helvetica,sans-Serif" font-size="14.00">n = 10  [8, 2]</text>
+</g>
+<!-- n1&#45;&gt;n5 -->
+<g id="edge4" class="edge">
+<title>n1-&gt;n5</title>
+<path fill="none" stroke="#444444" d="M240.85,-340.33C249.64,-325.18 260.55,-306.38 270.05,-290"/>
+<polygon fill="#444444" stroke="#444444" points="273.01,-291.89 275,-281.48 266.95,-288.38 273.01,-291.89"/>
+<text xml:space="preserve" text-anchor="middle" x="271.24" y="-306.2" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- n3 -->
+<g id="node3" class="node">
+<title>n3</title>
+<path fill="#3373cc" stroke="#444444" d="M74.44,-152.4C74.44,-152.4 12,-152.4 12,-152.4 6,-152.4 0,-146.4 0,-140.4 0,-140.4 0,-122.8 0,-122.8 0,-116.8 6,-110.8 12,-110.8 12,-110.8 74.44,-110.8 74.44,-110.8 80.44,-110.8 86.44,-116.8 86.44,-122.8 86.44,-122.8 86.44,-140.4 86.44,-140.4 86.44,-146.4 80.44,-152.4 74.44,-152.4"/>
+<text xml:space="preserve" text-anchor="middle" x="43.22" y="-135.8" font-family="Helvetica,sans-Serif" font-size="14.00">class 0</text>
+<text xml:space="preserve" text-anchor="middle" x="43.22" y="-119" font-family="Helvetica,sans-Serif" font-size="14.00">n = 2  [2, 0]</text>
+</g>
+<!-- n2&#45;&gt;n3 -->
+<g id="edge2" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#444444" d="M128.58,-221.13C110.9,-202.79 88.07,-179.12 70.47,-160.86"/>
+<polygon fill="#444444" stroke="#444444" points="73.3,-158.75 63.84,-153.98 68.26,-163.61 73.3,-158.75"/>
+<text xml:space="preserve" text-anchor="middle" x="118.55" y="-187" font-family="Helvetica,sans-Serif" font-size="14.00">Yes</text>
+</g>
+<!-- n4 -->
+<g id="node4" class="node">
+<title>n4</title>
+<path fill="#e68026" stroke="#444444" d="M189.44,-152.4C189.44,-152.4 127,-152.4 127,-152.4 121,-152.4 115,-146.4 115,-140.4 115,-140.4 115,-122.8 115,-122.8 115,-116.8 121,-110.8 127,-110.8 127,-110.8 189.44,-110.8 189.44,-110.8 195.44,-110.8 201.44,-116.8 201.44,-122.8 201.44,-122.8 201.44,-140.4 201.44,-140.4 201.44,-146.4 195.44,-152.4 189.44,-152.4"/>
+<text xml:space="preserve" text-anchor="middle" x="158.22" y="-135.8" font-family="Helvetica,sans-Serif" font-size="14.00">class 1</text>
+<text xml:space="preserve" text-anchor="middle" x="158.22" y="-119" font-family="Helvetica,sans-Serif" font-size="14.00">n = 3  [0, 3]</text>
+</g>
+<!-- n2&#45;&gt;n4 -->
+<g id="edge3" class="edge">
+<title>n2-&gt;n4</title>
+<path fill="none" stroke="#444444" d="M156.71,-221.13C157,-203.95 157.37,-182.08 157.68,-164.38"/>
+<polygon fill="#444444" stroke="#444444" points="161.18,-164.47 157.85,-154.41 154.18,-164.35 161.18,-164.47"/>
+<text xml:space="preserve" text-anchor="middle" x="166.29" y="-187" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- n6 -->
+<g id="node6" class="node">
+<title>n6</title>
+<path fill="#80ef80" stroke="#444444" d="M327.94,-160.8C327.94,-160.8 244.49,-160.8 244.49,-160.8 238.49,-160.8 232.49,-154.8 232.49,-148.8 232.49,-148.8 232.49,-114.4 232.49,-114.4 232.49,-108.4 238.49,-102.4 244.49,-102.4 244.49,-102.4 327.94,-102.4 327.94,-102.4 333.94,-102.4 339.94,-108.4 339.94,-114.4 339.94,-114.4 339.94,-148.8 339.94,-148.8 339.94,-154.8 333.94,-160.8 327.94,-160.8"/>
+<text xml:space="preserve" text-anchor="middle" x="286.22" y="-144.2" font-family="Helvetica,sans-Serif" font-size="14.00">x1 &lt; 30 </text>
+<text xml:space="preserve" text-anchor="middle" x="286.22" y="-127.4" font-family="Helvetica,sans-Serif" font-size="14.00">Entropy = 0.97</text>
+<text xml:space="preserve" text-anchor="middle" x="286.22" y="-110.6" font-family="Helvetica,sans-Serif" font-size="14.00">n = 5  [3, 2]</text>
+</g>
+<!-- n5&#45;&gt;n6 -->
+<g id="edge5" class="edge">
+<title>n5-&gt;n6</title>
+<path fill="none" stroke="#444444" d="M290.75,-221.13C290,-206.41 289.07,-188.24 288.25,-172.2"/>
+<polygon fill="#444444" stroke="#444444" points="291.76,-172.29 287.75,-162.49 284.76,-172.65 291.76,-172.29"/>
+<text xml:space="preserve" text-anchor="middle" x="301.64" y="-187" font-family="Helvetica,sans-Serif" font-size="14.00">Yes</text>
+</g>
+<!-- n9 -->
+<g id="node9" class="node">
+<title>n9</title>
+<path fill="#3373cc" stroke="#444444" d="M443.44,-152.4C443.44,-152.4 381,-152.4 381,-152.4 375,-152.4 369,-146.4 369,-140.4 369,-140.4 369,-122.8 369,-122.8 369,-116.8 375,-110.8 381,-110.8 381,-110.8 443.44,-110.8 443.44,-110.8 449.44,-110.8 455.44,-116.8 455.44,-122.8 455.44,-122.8 455.44,-140.4 455.44,-140.4 455.44,-146.4 449.44,-152.4 443.44,-152.4"/>
+<text xml:space="preserve" text-anchor="middle" x="412.22" y="-135.8" font-family="Helvetica,sans-Serif" font-size="14.00">class 0</text>
+<text xml:space="preserve" text-anchor="middle" x="412.22" y="-119" font-family="Helvetica,sans-Serif" font-size="14.00">n = 5  [5, 0]</text>
+</g>
+<!-- n5&#45;&gt;n9 -->
+<g id="edge8" class="edge">
+<title>n5-&gt;n9</title>
+<path fill="none" stroke="#444444" d="M321.57,-221.13C340.35,-202.79 364.59,-179.12 383.28,-160.86"/>
+<polygon fill="#444444" stroke="#444444" points="385.65,-163.44 390.36,-153.95 380.76,-158.43 385.65,-163.44"/>
+<text xml:space="preserve" text-anchor="middle" x="368.35" y="-187" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- n7 -->
+<g id="node7" class="node">
+<title>n7</title>
+<path fill="#3373cc" stroke="#444444" d="M259.44,-41.6C259.44,-41.6 197,-41.6 197,-41.6 191,-41.6 185,-35.6 185,-29.6 185,-29.6 185,-12 185,-12 185,-6 191,0 197,0 197,0 259.44,0 259.44,0 265.44,0 271.44,-6 271.44,-12 271.44,-12 271.44,-29.6 271.44,-29.6 271.44,-35.6 265.44,-41.6 259.44,-41.6"/>
+<text xml:space="preserve" text-anchor="middle" x="228.22" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00">class 0</text>
+<text xml:space="preserve" text-anchor="middle" x="228.22" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00">n = 3  [3, 0]</text>
+</g>
+<!-- n6&#45;&gt;n7 -->
+<g id="edge6" class="edge">
+<title>n6-&gt;n7</title>
+<path fill="none" stroke="#444444" d="M270.98,-102.01C262.72,-86.52 252.52,-67.39 244.16,-51.7"/>
+<polygon fill="#444444" stroke="#444444" points="247.47,-50.47 239.67,-43.29 241.29,-53.76 247.47,-50.47"/>
+<text xml:space="preserve" text-anchor="middle" x="271.02" y="-67.8" font-family="Helvetica,sans-Serif" font-size="14.00">Yes</text>
+</g>
+<!-- n8 -->
+<g id="node8" class="node">
+<title>n8</title>
+<path fill="#e68026" stroke="#444444" d="M374.44,-41.6C374.44,-41.6 312,-41.6 312,-41.6 306,-41.6 300,-35.6 300,-29.6 300,-29.6 300,-12 300,-12 300,-6 306,0 312,0 312,0 374.44,0 374.44,0 380.44,0 386.44,-6 386.44,-12 386.44,-12 386.44,-29.6 386.44,-29.6 386.44,-35.6 380.44,-41.6 374.44,-41.6"/>
+<text xml:space="preserve" text-anchor="middle" x="343.22" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00">class 1</text>
+<text xml:space="preserve" text-anchor="middle" x="343.22" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00">n = 2  [0, 2]</text>
+</g>
+<!-- n6&#45;&gt;n8 -->
+<g id="edge7" class="edge">
+<title>n6-&gt;n8</title>
+<path fill="none" stroke="#444444" d="M301.19,-102.01C309.23,-86.67 319.14,-67.75 327.32,-52.15"/>
+<polygon fill="#444444" stroke="#444444" points="330.42,-53.78 331.96,-43.29 324.22,-50.53 330.42,-53.78"/>
+<text xml:space="preserve" text-anchor="middle" x="328.77" y="-67.8" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+</g>
+</svg>

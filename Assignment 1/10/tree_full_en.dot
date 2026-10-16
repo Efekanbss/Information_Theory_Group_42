@@ -1,0 +1,22 @@
+digraph Tree {
+  graph [nodesep=0.4, ranksep=0.6];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", color="#444444"];
+  edge [fontname="Helvetica", color="#444444"];
+  n1 [label="x2 < 50 \nEntropy = 0.92\nn = 15  [10, 5]", fillcolor="#80ef80"];
+  n2 [label="x3 < 50 \nEntropy = 0.97\nn = 5  [2, 3]", fillcolor="#80ef80"];
+  n1 -> n2 [label="Yes"];
+  n3 [label="class 0\nn = 2  [2, 0]", fillcolor="#3373cc"];
+  n2 -> n3 [label="Yes"];
+  n4 [label="class 1\nn = 3  [0, 3]", fillcolor="#e68026"];
+  n2 -> n4 [label="No"];
+  n5 [label="x1 < 70 \nEntropy = 0.72\nn = 10  [8, 2]", fillcolor="#80ef80"];
+  n1 -> n5 [label="No"];
+  n6 [label="x1 < 30 \nEntropy = 0.97\nn = 5  [3, 2]", fillcolor="#80ef80"];
+  n5 -> n6 [label="Yes"];
+  n7 [label="class 0\nn = 3  [3, 0]", fillcolor="#3373cc"];
+  n6 -> n7 [label="Yes"];
+  n8 [label="class 1\nn = 2  [0, 2]", fillcolor="#e68026"];
+  n6 -> n8 [label="No"];
+  n9 [label="class 0\nn = 5  [5, 0]", fillcolor="#3373cc"];
+  n5 -> n9 [label="No"];
+}
