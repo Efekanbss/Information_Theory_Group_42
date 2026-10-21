@@ -26,5 +26,8 @@ He said he is not recording assignment sessions. Not even now during its present
 - first two ex are applications. 3 is analytical
 - 3: can put code in a "code-box" but if there's math, put that too. (spoiler, there will be math) 
 - 4: app/gui again. eval of text: both 10 chars, and 50k chars must work.
-App designer tutorial: https://it.mathworks.com/videos/app-designer-overview-1510748719083.html 
+App designer tutorial: https://it.mathworks.com/videos/app-designer-overview-1510748719083.html
+
+-------------------------------------------------------------------------------------------------------------------------
+
 A3: 
